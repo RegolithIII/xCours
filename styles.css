@@ -158,4 +158,13 @@ pre {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: auto;
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    border-style: none;
+
 }
