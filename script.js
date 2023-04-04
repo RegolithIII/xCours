@@ -14,7 +14,7 @@ const template = document.createElement('template');
 
 template.innerHTML = `
 <header class="header">
-<a class="a" href="/index.html">SuperCours</a>
+<a href="/index.html"><img src="Images/Typo xCours.png" class="typo"></a>
 <a class="a" href="/SuperCours/premiere/Math/math.html">Maths</a>
 <a class="a" href="/SuperCours/premiere/Physique-Chimie/Physique-Chimie.html">Physique-Chimie</a>
 <a class="a" href="/SuperCours/premiere/SVT/SVT.html">SVT</a>
