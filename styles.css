@@ -168,3 +168,27 @@ hr {
     border-style: none;
 
 }
+
+.typo {
+    height: 70px;
+}
+
+.headerHome {
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(6.8px);
+    box-shadow: 0 0 60px #ffffff51;
+    font-style: normal;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.68);
+
+}
