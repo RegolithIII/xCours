@@ -39,7 +39,7 @@
     top: 0px;
     overflow: hidden;
     display: flex;
-    height: 70px;
+    height: 10%;
     width: 100%;
     color: white;
     text-decoration: none;
@@ -79,17 +79,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 200px;
+    flex-basis: 0%;
     flex: 50%;
     justify-content: center;
     align-content: center;
+    width: 100%;
 }
 
 .bloc {
+    display: flex;
     width:  20%;
     height: auto;
     margin: 2em;
-    padding: 2em;
+    padding: 0em;
     border-radius: 20px;
     color: white;
     text-decoration: none;
@@ -102,6 +104,9 @@
     text-align: center;
     font-style: normal;
     transition: all 0.2s;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .bloc:hover {
@@ -109,14 +114,23 @@
     width: 21%;
 }
 
+.blocImg {
+    width:  100%;
+    height: auto;
+    margin: -5%;
+    position: relative;
+    bottom: -5px;
+}
+
 .bloc_h1 {
-    margin:10%;
-    padding:5px;
+    text-align: center;
+    margin: 10%;
+    padding: 0px;
     font-size:1.5em;
     color:#fff;
-    border-radius: 5px;
     text-decoration: none;
     font-variant: normal;
+    z-index: 500;
 }
 
 pre {
