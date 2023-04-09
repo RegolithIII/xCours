@@ -87,26 +87,33 @@
 }
 
 .bloc {
-    display: flex;
+    height: 10em;
     width:  20%;
-    height: auto;
+
+    display: flex;
+    overflow: hidden;
+    position: relative;
+
     margin: 2em;
     padding: 0em;
+
     border-radius: 20px;
-    color: white;
-    text-decoration: none;
     background: rgba(255, 255, 255, 0.35);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
     border: 1px solid rgba(255, 255, 255, 0.68);
     box-shadow: 0 0 60px #ffffff51;
-    text-align: center;
+    
+    color: white;
     font-style: normal;
-    transition: all 0.2s;
+    text-align: center;
+    text-decoration: none;
+    
     align-content: center;
     justify-content: center;
-    overflow: hidden;
+    
+    transition: all 0.2s;
 }
 
 .bloc:hover {
@@ -118,19 +125,23 @@
     width:  100%;
     height: auto;
     margin: -5%;
-    position: relative;
+    position: absolute;
     bottom: -5px;
 }
 
 .bloc_h1 {
     text-align: center;
-    margin: 10%;
+    margin: 0%;
     padding: 0px;
     font-size:1.5em;
     color:#fff;
     text-decoration: none;
     font-variant: normal;
     z-index: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 pre {
