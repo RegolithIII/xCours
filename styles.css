@@ -146,22 +146,27 @@
 }
 
 pre {
-    width:  auto;
+    width:  60%;
     height: auto;
+
     margin: 2em;
     padding: 2em;
+
     border-radius: 20px;
-    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.68);
+
+    
     background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 60px #ffffff51;
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
-    border: 1px solid rgba(255, 255, 255, 0.68);
-    box-shadow: 0 0 60px #ffffff51;
+    
+    color: white;
     text-align: left;
     font-style: normal;
-    transition: all 0.2s;
     text-overflow: clip;
+    
+    transition: all 0.2s;
     white-space: pre-wrap;
 }
 
